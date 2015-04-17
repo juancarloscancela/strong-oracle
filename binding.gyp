@@ -1,7 +1,7 @@
 {
   "conditions": [
-    ["OS=='mac'", {
-      "variables": { "oci_version%": "11" },
+    ["OS=='linux'", {
+      "variables": { "oci_version%": "12" },
     }, {
       "variables": { "oci_version%": "12" },
     }],
